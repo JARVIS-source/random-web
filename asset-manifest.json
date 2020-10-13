@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jarvis-source.github.io/random-web/static/css/main.5f361e03.chunk.css",
-    "main.js": "/jarvis-source.github.io/random-web/static/js/main.367e7680.chunk.js",
-    "main.js.map": "/jarvis-source.github.io/random-web/static/js/main.367e7680.chunk.js.map",
-    "runtime-main.js": "/jarvis-source.github.io/random-web/static/js/runtime-main.be47cef9.js",
-    "runtime-main.js.map": "/jarvis-source.github.io/random-web/static/js/runtime-main.be47cef9.js.map",
-    "static/js/2.4ed25286.chunk.js": "/jarvis-source.github.io/random-web/static/js/2.4ed25286.chunk.js",
-    "static/js/2.4ed25286.chunk.js.map": "/jarvis-source.github.io/random-web/static/js/2.4ed25286.chunk.js.map",
-    "index.html": "/jarvis-source.github.io/random-web/index.html",
-    "precache-manifest.0066265e90c8d487efab9d92278bac53.js": "/jarvis-source.github.io/random-web/precache-manifest.0066265e90c8d487efab9d92278bac53.js",
-    "service-worker.js": "/jarvis-source.github.io/random-web/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/jarvis-source.github.io/random-web/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4ed25286.chunk.js.LICENSE.txt": "/jarvis-source.github.io/random-web/static/js/2.4ed25286.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/jarvis-source.github.io/random-web/static/media/logo.5d5d9eef.svg"
+    "main.css": "/random-web/static/css/main.5f361e03.chunk.css",
+    "main.js": "/random-web/static/js/main.0d5ac6e0.chunk.js",
+    "main.js.map": "/random-web/static/js/main.0d5ac6e0.chunk.js.map",
+    "runtime-main.js": "/random-web/static/js/runtime-main.155443bb.js",
+    "runtime-main.js.map": "/random-web/static/js/runtime-main.155443bb.js.map",
+    "static/js/2.4ed25286.chunk.js": "/random-web/static/js/2.4ed25286.chunk.js",
+    "static/js/2.4ed25286.chunk.js.map": "/random-web/static/js/2.4ed25286.chunk.js.map",
+    "index.html": "/random-web/index.html",
+    "precache-manifest.1966f3c8975535f371b258cfd87a2133.js": "/random-web/precache-manifest.1966f3c8975535f371b258cfd87a2133.js",
+    "service-worker.js": "/random-web/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/random-web/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4ed25286.chunk.js.LICENSE.txt": "/random-web/static/js/2.4ed25286.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/random-web/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be47cef9.js",
+    "static/js/runtime-main.155443bb.js",
     "static/js/2.4ed25286.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.367e7680.chunk.js"
+    "static/js/main.0d5ac6e0.chunk.js"
   ]
 }
