@@ -30,7 +30,7 @@ function opt_ls() {
 
 function process() {
     rotateAnimation("logo");
-    if (To_Do == false) {
+    if (To_Do == false && options.length > 1) {
         var r = Math.floor(Math.random() * options.length);
         document.getElementById("outrand").innerHTML = options[r];
     } else if (options.length != 0 && options.length != 1) {
@@ -44,7 +44,7 @@ function process() {
             var r = Math.floor(Math.random() * options.length);
             if (numb.includes(r)) { }
             else {
-                out += z + 1 + ". " + options[r] + "<br>";
+                out += z + 1 + "." + options[r] + "<br>";
                 numb.push(r);
                 z = z + 1;
             }
@@ -66,7 +66,7 @@ function choose() {
         document.getElementById("mode").value = "To-Do";
         document.getElementById("mode").innerHTML = "To-Do";
         document.getElementById("display").style.background = '#9f05c575';
-        document.getElementById("display").style.color = '#cccccc';
+        document.getElementById("display").style.color = '#ffffff';
         return To_Do = true;
     } else if (mode == "To-Do") {
         document.getElementById("mode").value = "Random_Decission";

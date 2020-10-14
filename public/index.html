@@ -3,6 +3,7 @@
 
 <head>
   <title>RaNdOm</title>
+  <meta name="viewport" content="width=device-width">
   <style>
     body {
       background-color: #111f29f6;
@@ -10,6 +11,7 @@
   </style>
   <link rel="icon" href="%PUBLIC_URL%/silverbutton-rand.png" type="image/png">
   <link rel="stylesheet" href="%PUBLIC_URL%/rand_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,18 +25,18 @@
   <div id="display">
     <label id="mode">Random_Decission</label>
   </div>
-  <div id="input">
-    <input id="input_box" type="text" placeholder="Type in your option..." />
-    <button id="input_button" type="button" onclick="add_option();">⚡</button>
-  </div>
+  <div><input id="input_box" type="text" placeholder="Type in your option..." /></div>
+  <button id="input_button" type="button" onclick="add_option();">⚡</button>
   <div id="engine_on">
     <button id="engine_button" type="button" onclick="process();">R@ŊðØm</button>
   </div>
   <div><button id="ls" type="button" onclick="opt_ls();">📑</button></div>
   <div><button id="del" type="button" onclick="del();">🤯</button></div>
-  <label id="list"></label>
+  <div></div>
   <div id="outrand"></div>
+  <div></div>
   <div id="outtodo"></div>
+  <label id="list"></label>
   <script src="%PUBLIC_URL%/RaNdOm.js"></script>
 </body>
 
