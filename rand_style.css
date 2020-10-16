@@ -215,3 +215,14 @@ input:checked + .slider:before {
   -webkit-transition: .4s;
   transition: .4s;
 }
+
+#conglumerat {
+  position: relative;
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  left: 30%;
+  top: 2%;
+  margin-inline-start: 5%;
+  margin-inline-end: 25%;
+}
