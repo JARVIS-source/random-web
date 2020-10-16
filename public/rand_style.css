@@ -7,7 +7,7 @@
 
 #menu {
   position: relative;
-  left: -10px;
+  left: -25px;
 }
 
 #logo {
@@ -123,15 +123,12 @@ input:checked + .slider:before {
 
 #input_button {
   position: relative;
-  display: inline-block;
+  display: inline;
   text-align: start;
-  left: 320px;
+  left: 48%;
   top: 38px;
   height: 60px;
   width: 65px;
-  min-inline-size: 50px;
-  margin-inline-start:1px;
-  margin-inline-end: 20px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border: 2px solid #ffffff;
@@ -148,7 +145,7 @@ input:checked + .slider:before {
   display: inline-block;
   position: relative;
   top:-77px;
-  left:100px;
+  left:20%;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
@@ -161,7 +158,7 @@ input:checked + .slider:before {
   display: inline-block;
   position: relative;
   top:-145px;
-  left:515px;
+  left:70%;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
@@ -182,9 +179,8 @@ input:checked + .slider:before {
   font-size: 35px;
   width: 350px;
   height: 50px;
-  border-style: groove;
-  /* border: 2px solid #ffffff; */
-  font-weight: bolder;
+  text-decoration: wavy;
+  border: 2px solid #ffffff;
   border-radius: 4px;
   background-color:transparent;
   box-shadow: 0 0 10px #036de7;
