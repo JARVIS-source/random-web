@@ -118,6 +118,7 @@ input:checked + .slider:before {
 
 #input_button {
   position: relative;
+  display: inline-block;
   text-align: center;
   left: 320px;
   top: 38px;
@@ -128,12 +129,19 @@ input:checked + .slider:before {
   margin-inline-end: 20px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
+  border: 2px solid #ffffff;
+  font-weight: bolder;
+  border-radius: 4px;
   background-color:transparent;
   box-shadow: 0 0 10px #036de7;
   color: #cccccc;
+  -webkit-transition: .4s;
+ transition: .4s;
+}
 }
 
 #ls {
+  display: inline-block;
   position: relative;
   top:-77px;
   left:113px;
@@ -141,16 +149,23 @@ input:checked + .slider:before {
   font-size: 50px;
   border-color: transparent;
   background-color:transparent;
+  -webkit-transition: .4s;
+ transition: .4s;
+}
 }
 
 #del {
+  display: inline-block;
   position: relative;
-  top:-140px;
+  top:-145px;
   left:525px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
   background-color:transparent;
+  -webkit-transition: .4s;
+ transition: .4s;
+}
  }
  
 #engine_on {
@@ -160,13 +175,20 @@ input:checked + .slider:before {
 }
 
 #engine_button {
+  display: inline-block;
   font-family: 'Varela Round', sans-serif;
   font-size: 35px;
   width: 350px;
   height: 50px;
+  border: 2px solid #ffffff;
+  font-weight: bolder;
+  border-radius: 4px;
   background-color:transparent;
   box-shadow: 0 0 10px #036de7;
   color: #cccccc;
+  -webkit-transition: .4s;
+ transition: .4s;
+}
 }
 
 #list {
