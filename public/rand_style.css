@@ -1,7 +1,12 @@
+#header, #menu, #body, #footer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 #logo {
   position: relative;
-  top: 10px;
-  left: 15px;
+  top: 15px;
+  left: 5%;
   transition: transform 0.3s;
 }
 
@@ -98,9 +103,9 @@ input:checked + .slider:before {
  font-size: 20px;
  border-radius: 4px;
  height: 40px;
- min-inline-size: 700px;
- margin-inline-start: 5px;
- margin-inline-end: 13px;
+ min-inline-size: 690px;
+ margin-inline-start:1px;
+ margin-inline-end: 20px;
  bottom: 5px;
  background-color:transparent;
  box-shadow: 0 0 10px #036de7;
@@ -116,6 +121,9 @@ input:checked + .slider:before {
   top: 38px;
   height: 60px;
   width: 65px;
+  min-inline-size: 50px;
+  margin-inline-start:1px;
+  margin-inline-end: 20px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   background-color:transparent;
@@ -214,15 +222,4 @@ input:checked + .slider:before {
   font-size: 30px;
   -webkit-transition: .4s;
   transition: .4s;
-}
-
-#conglumerat {
-  position: relative;
-  display: inline-block;
-  height: fit-content;
-  width: fit-content;
-  left: 30%;
-  top: 2%;
-  margin-inline-start: 5%;
-  margin-inline-end: 25%;
 }

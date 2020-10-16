@@ -44,7 +44,7 @@ function process() {
             var r = Math.floor(Math.random() * options.length);
             if (numb.includes(r)) { }
             else {
-                out += z + 1 + "." + options[r] + "<br>";
+                out += z + 1 + ". " + options[r] + "<br>";
                 numb.push(r);
                 z = z + 1;
             }
