@@ -9,14 +9,14 @@
       background-color: #111f29f6;
     }
   </style>
-  <link rel="icon" href="pictures/silverbutton-rand.png" type="image/png">
-  <link rel="stylesheet" href="rand_style.css">
+  <link rel="icon" href="%PUBLIC_URL%/silverbutton-rand.png" type="image/png">
+  <link rel="stylesheet" href="%PUBLIC_URL%/rand_style.css">
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div id="conglumerat">
-    <input type="image" id="logo" src="pictures/silverbutton-rand.png" alt="Italian Trulli" onclick="add_option();">
+    <input type="image" id="logo" src="%PUBLIC_URL%/silverbutton-rand.png" alt="Italian Trulli" onclick="add_option();">
     <div>
       <label class="switch">
         <input type="checkbox" onclick="choose();">
@@ -37,9 +37,9 @@
     <div id="outrand"></div>
     <div></div>
     <div id="outtodo"></div>
-    <div id="list"></div>
+    <label id="list"></label>
   </div>
-  <script src="RaNdOm.js"></script>
+  <script src="%PUBLIC_URL%/RaNdOm.js"></script>
 </body>
 
 </html>
