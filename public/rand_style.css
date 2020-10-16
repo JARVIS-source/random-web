@@ -1,6 +1,8 @@
 #header, #menu, #body, #footer {
+  margin-top: 5%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 15%;
+  margin-bottom: 5%;
 }
 
 #logo {
@@ -103,9 +105,9 @@ input:checked + .slider:before {
  font-size: 20px;
  border-radius: 4px;
  height: 40px;
- min-inline-size: 690px;
- margin-inline-start:1px;
- margin-inline-end: 20px;
+ min-inline-size: 680px;
+ margin-inline-start:2px;
+ margin-inline-end: 50px;
  bottom: 5px;
  background-color:transparent;
  box-shadow: 0 0 10px #036de7;
@@ -222,4 +224,12 @@ input:checked + .slider:before {
   font-size: 30px;
   -webkit-transition: .4s;
   transition: .4s;
+}
+
+#footer {
+  position: relative;
+  width: 233%;
+  text-align: center;
+  color: #ffffff;
+  background-color: brown;
 }
