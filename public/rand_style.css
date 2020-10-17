@@ -144,7 +144,7 @@ input:checked + .slider:before {
   display: inline-block;
   position: relative;
   top:-85px;
-  left:90px;
+  left:85px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
@@ -258,8 +258,8 @@ input:checked + .slider:before {
 
 #footer {
   position: relative;
-  left: -7%;
-  width: 680px;
+  left: -3%;
+  width: 670px;
   text-align: center;
   color: #ffffff;
   background-color: brown;
