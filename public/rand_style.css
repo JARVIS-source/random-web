@@ -144,7 +144,7 @@ input:checked + .slider:before {
   display: inline-block;
   position: relative;
   top:-85px;
-  left:130px;
+  left:110px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
@@ -157,7 +157,7 @@ input:checked + .slider:before {
   display: inline-block;
   position: relative;
   top:-156px;
-  left:520px;
+  left:450px;
   border-radius: 4px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
@@ -195,7 +195,9 @@ input:checked + .slider:before {
   color: white;
   border-color: tomato;
   box-shadow: 0 0 10px violet;
-  transform: scale(90%); 
+  transform: scale(50%);
+  -webkit-transition: .4s;
+  transition: .4s; 
 }
 
 #list {
@@ -256,7 +258,7 @@ input:checked + .slider:before {
 
 #footer {
   position: relative;
-  left: -7%;
+  left: -10%;
   width: 800px;
   text-align: center;
   color: #ffffff;
