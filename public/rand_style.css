@@ -13,14 +13,14 @@
 #logo {
   position: relative;
   top: 15px;
-  left: -0.6%;
+  left: -1.2%;
   transition: transform 0.3s;
 }
 
 .switch {
  position: relative;
  top:-57px;
- left: 580px;
+ left: 570px;
  display: inline-block;
  width: 50px;
  height: 30px;
@@ -126,7 +126,7 @@ input:checked + .slider:before {
   position: relative;
   padding: 1% 3%;
   text-align: center;
-  left: 120%;
+  left: 312px;
   top: 38px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
@@ -143,8 +143,8 @@ input:checked + .slider:before {
 #ls {
   display: inline-block;
   position: relative;
-  top:-77px;
-  left:25%;
+  top:-85px;
+  left:130px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
   border-color: transparent;
@@ -156,8 +156,8 @@ input:checked + .slider:before {
 #del {
   display: inline-block;
   position: relative;
-  top:-148px;
-  left:68%;
+  top:-156px;
+  left:520px;
   border-radius: 4px;
   font-family: 'Varela Round', sans-serif;
   font-size: 50px;
@@ -188,6 +188,14 @@ input:checked + .slider:before {
   -webkit-transition: .4s;
  transition: .4s;
  transition-duration: 0.4s;
+}
+
+#engine_button:active, #input_button:active {
+  background-color: #55d1f08a;
+  color: white;
+  border-color: tomato;
+  box-shadow: 0 0 10px violet;
+  transform: scale(90%); 
 }
 
 #list {
@@ -255,7 +263,7 @@ input:checked + .slider:before {
   background-color: brown;
 }
 
-#input_box:hover, #input_button:hover, #engine_button:hover{
+#input_box:hover {
   background-color: #55d1f08a;
   color: white;
   border-color: tomato;
