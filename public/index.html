@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="%PUBLIC_URL%/font/OpenSans/OpenSans.css" rel="stylesheet">
     <link rel="icon" href="%PUBLIC_URL%/pictures/silverbutton-rand.png" sizes="32x32" type="image/png">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/main.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
 
     <title>RaNdOm</title>
 </head>
@@ -32,22 +32,23 @@
     <main role="main">
         <div class="container box main-container">
 
-            <div class="container"><input id="input_box" type="text" placeholder="Type in your option..." /></div>
+            <div class="container  textfield-center"><input id="input_box" type="text"
+                    placeholder="Type in your option..." /></div>
             <div class="container textfield-center" id="menu">
-                <button class="contain-left" id="ls" type="button" onclick="opt_ls();">📑</button>
+                <button class="ls-field" id="ls" type="button" onclick="opt_ls();">📑</button>
                 <button class="textfield-center" id="input_button" type="button" onclick="add_option();">⚡</button>
-                <button class=".textfield-right " id="del" type="button" onclick="del();">🤯</button>
+                <button class="del-field" id="del" type="button" onclick="del();">🤯</button>
             </div>
             <div class="container textfield-center"><button id="engine_button" type="button"
                     onclick="process();">R@ŊðØm</button></div>
-            <div class="container textfield-center">
+            <div class="container rand-center">
                 <div id="outrand"></div>
             </div>
             <div id="outtodo" class="container"></div>
             <div id="list" class="container"></div>
             <div class="container footer" id="footer">
-                <button id="info" onclick="info();">🛈</button>
-                <label id="version">Version: 6.1 </label>
+                <button id="info" onclick=" info();"><img id="infpic" src="%PUBLIC_URL%/pictures/kiss.png" /></button>
+                <label id="version">Version: 6.3 </label>
                 <label class="change">
                     <input type="checkbox" onclick="black_out();">
                     <span class="slide round"></span>
@@ -55,7 +56,7 @@
             </div>
         </div>
         <div class="container textfield-right">
-            <small class="text-muted">(Stand: 27.10.2020)</small>
+            <small class="text-muted">(Stand: 28.10.2020)</small>
         </div>
 
         <script src="%PUBLIC_URL%/RaNdOm.js"></script>
