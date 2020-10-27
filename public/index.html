@@ -1,56 +1,67 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="de">
 
 <head>
-  <title>RaNdOm</title>
-  <meta name="viewport" content="width=device-width">
-  <style>
-    body {
-      background-color: rgba(17, 31, 41, 0.965);
-    }
-  </style>
-  <link rel="icon" href="%PUBLIC_URL%/silverbutton-rand.png" type="image/png">
-  <link rel="stylesheet" href="%PUBLIC_URL%/rand_style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="%PUBLIC_URL%/font/OpenSans/OpenSans.css" rel="stylesheet">
+    <link rel="icon" href="%PUBLIC_URL%/pictures/silverbutton-rand.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/main.css">
+
+    <title>RaNdOm</title>
 </head>
 
 <body>
-  <header class="container container-center">
-    <input type="image" class="logo" id="logo" src="%PUBLIC_URL%/silverbutton-rand.png" alt="Italian Trulli"
-      onclick="add_option();">
-    <div class="spacer"></div>
-    <div class="display" id="display">Random_Decission</div>
-    <div class="contain-slider">
-      <label class="switch">
-        <input type="checkbox" onclick="choose();">
-        <span class="slider round"></span>
-      </label>
-    </div>
-  </header>
-  <main role="main">
-    <div class="container"><input id="input_box" type="text" placeholder="Type in your option..." /></div>
-    <div class="container container-center" id="menu">
-      <button class="contain-left" id="ls" type="button" onclick="opt_ls();">📑</button>
-      <button class="contain-center" id="input_button" type="button" onclick="add_option();">⚡</button>
-      <button class="contain-right" id="del" type="button" onclick="del();">🤯</button>
-    </div>
-    <div class="container container-center"><button id="engine_button" type="button"
-        onclick="process();">R@ŊðØm</button></div>
-    <div class="container container-center">
-      <div id="outrand"></div>
-    </div>
-    <div id="outtodo" class="container"></div>
-    <div id="list" class="container"></div>
-    <div class="container footer" id="footer">
-      <button id="info" onclick="info();">🛈</button>
-      <label id="version">Version:6.0 </label>
-      <label class="change">
-        <input type="checkbox" onclick="black_out();">
-        <span class="slide round"></span>
-      </label>
-    </div>
-    <script src="%PUBLIC_URL%/RaNdOm.js"></script>
-  </main>
+    <header class="nav container">
+        <div>
+            <img id="logo1" class="logo" src="%PUBLIC_URL%/pictures/silverbutton-rand.png"
+                alt="%PUBLIC_URL%/pictures/button-rand.png" width="75" height="75" onclick="rotateAnimation();">
+        </div>
+        <div>
+            <img id="logo2" class="logo" src="%PUBLIC_URL%/pictures/button-rand.png"
+                alt="%PUBLIC_URL%/pictures/silverbutton-rand.png" width="75" height="75" onclick="rotateAnimation();">
+        </div>
+        <div class="display field-center" id="display">Random</div>
+        <div class="field-right">
+            <label class="switch">
+                <input type="checkbox" onclick="choose();">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container box main-container">
+
+            <div class="container"><input id="input_box" type="text" placeholder="Type in your option..." /></div>
+            <div class="container textfield-center" id="menu">
+                <button class="contain-left" id="ls" type="button" onclick="opt_ls();">📑</button>
+                <button class="textfield-center" id="input_button" type="button" onclick="add_option();">⚡</button>
+                <button class=".textfield-right " id="del" type="button" onclick="del();">🤯</button>
+            </div>
+            <div class="container textfield-center"><button id="engine_button" type="button"
+                    onclick="process();">R@ŊðØm</button></div>
+            <div class="container textfield-center">
+                <div id="outrand"></div>
+            </div>
+            <div id="outtodo" class="container"></div>
+            <div id="list" class="container"></div>
+            <div class="container footer" id="footer">
+                <button id="info" onclick="info();">🛈</button>
+                <label id="version">Version: 6.1 </label>
+                <label class="change">
+                    <input type="checkbox" onclick="black_out();">
+                    <span class="slide round"></span>
+                </label>
+            </div>
+        </div>
+        <div class="container textfield-right">
+            <small class="text-muted">(Stand: 27.10.2020)</small>
+        </div>
+
+        <script src="%PUBLIC_URL%/RaNdOm.js"></script>
+
+        </div>
+    </main>
 </body>
 
 </html>
