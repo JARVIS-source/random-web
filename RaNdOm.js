@@ -3,7 +3,7 @@ var To_Do = false;
 var a = true;
 
 function add_option() {
-    rotateAnimation("logo");
+    rotateAnimation();
     var option = document.getElementById("input_box").value;
     if (option != "" && option != " " && option != "  " && option != "   " && option != "    " && option != "     ") {
         options.push(option);
@@ -12,7 +12,7 @@ function add_option() {
 }
 
 function opt_ls() {
-    rotateAnimation("logo");
+    rotateAnimation();
     var text = "";
     var i;
     for (i = 0; i < options.length; i++) {
@@ -27,7 +27,7 @@ function opt_ls() {
 }
 
 function process() {
-    rotateAnimation("logo");
+    rotateAnimation();
     if (To_Do == false && options.length > 1) {
         var r = Math.floor(Math.random() * options.length);
         document.getElementById("outrand").innerHTML = options[r];
@@ -58,7 +58,7 @@ function process() {
 }
 
 function choose() {
-    rotateAnimation("logo");
+    rotateAnimation();
     var mode = document.getElementById("display").value;
     if (mode != "To-Do") {
         document.getElementById("display").value = "To-Do";
@@ -67,8 +67,8 @@ function choose() {
         document.getElementById("display").style.color = '#ffffff';
         return To_Do = true;
     } else if (mode == "To-Do") {
-        document.getElementById("display").value = "Random_Decission";
-        document.getElementById("display").innerHTML = "Random_Decission";
+        document.getElementById("display").value = "Random";
+        document.getElementById("display").innerHTML = "Random";
         document.getElementById("display").style.background = '';
         document.getElementById("display").style.color = '#812697e7';
         return To_Do = false;
@@ -87,40 +87,44 @@ var current_rotation = 0;
 
 function rotateAnimation() {
     current_rotation += 360;
-    document.querySelector("#logo").style.transform = 'rotate(' + current_rotation + 'deg)';
+    document.querySelector("#logo2").style.transform = 'rotate(' + current_rotation + 'deg)';
+    document.querySelector("#logo1").style.transform = 'rotate(' + current_rotation + 'deg)';
 }
 
 function del() {
-    rotateAnimation("logo");
+    rotateAnimation();
     options = [];
 }
 
 function info() {
-    rotateAnimation("logo");
-    alert("This is the Infosite\n\nThe intesion of this site is to automate making trivial decission\n\nHow to use:\nPut in your options (enter or ⚡) and click the R@ŊðØm button\nto get an answer or switch the toogle button so you will see a To-Do order\nClick the 📑 emoji to see again what you have entered\nClick the 🤯 to delete the given input\n\nFor color changing use the toogle button in the info bar\n\n\ncontact: j_a_r_v_i_s@mail.de")
+    rotateAnimation();
+    alert("This is the Infosite\n\nThe intention of this site is to automate making trivial decission\n\nHow to use:\nPut in your options (enter or ⚡) and click the R@ŊðØm button\nto get an answer or switch the toogle button so you will see a To-Do order\nClick the 📑 emoji to see again what you have entered\nClick the 🤯 to delete the given input\n\nFor color changing use the toogle button in the info bar\n\n\ncontact: j_a_r_v_i_s@mail.de")
 }
 
 function black_out() {
-    rotateAnimation("logo");
     if (a == true) {
         for (i = 0; i < 2; i++) {
             var color = document.body.style.backgroundColor;
-            if (color == "rgba(17, 31, 41, 0.965)") {
+            if (color == "rgb(32, 34, 36)") {
                 document.body.style.backgroundColor = "#ffffff";
-                document.getElementById("logo").src = "%PUBLIC_URL%/button-rand.png";
+                document.getElementById("logo1").style.display = "none";
+                document.getElementById("logo2").style.display = "inline";
             } else {
-                document.body.style.backgroundColor = "rgba(17, 31, 41, 0.965)";
-                document.getElementById("logo").src = "%PUBLIC_URL%/silverbutton-rand.png";
+                document.body.style.backgroundColor = "rgb(32, 34, 36)";
+                document.getElementById("logo1").style.display = "inline";
+                document.getElementById("logo2").style.display = "none";
             };
         } return a = false;
     } else {
         var color = document.body.style.backgroundColor;
-        if (color == "rgba(17, 31, 41, 0.965)") {
+        if (color == "rgb(32, 34, 36)") {
             document.body.style.backgroundColor = "#ffffff";
-            document.getElementById("logo").src = "%PUBLIC_URL%/button-rand.png";
+            document.getElementById("logo1").style.display = "none";
+            document.getElementById("logo2").style.display = "inline";
         } else {
-            document.body.style.backgroundColor = "rgba(17, 31, 41, 0.965)";
-            document.getElementById("logo").src = "%PUBLIC_URL%/silverbutton-rand.png";
+            document.body.style.backgroundColor = "rgb(32, 34, 36)";
+            document.getElementById("logo1").style.display = "inline";
+            document.getElementById("logo2").style.display = "none";
         };
     }
 }
