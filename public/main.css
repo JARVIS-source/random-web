@@ -51,8 +51,8 @@ body {
     #infpic {
       position: relative;
       margin-top: 1%;
-      width: 40px; 
-      height: 40px;
+      width: 32px; 
+      height: 32px;
     }
     #info{
       width: 5%;
@@ -101,9 +101,9 @@ body {
 
     #infpic {
       position: relative;
-      margin-top: 5%;
-      width: 180%; 
-      height: 180%;
+      margin-top: -1%;
+      width: 250%; 
+      height: 250%;
       margin-left: -3%;
     }
     .display {
