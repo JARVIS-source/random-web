@@ -35,7 +35,7 @@ body {
     border-radius: 3px;
     vertical-align: middle;
     width: 100%;}
-
+  
 @media(min-width: 50em){
     .box{
       border: 1px solid var(--border-color);
@@ -51,8 +51,8 @@ body {
     #infpic {
       position: relative;
       margin-top: 1%;
-      width: 90%; 
-      height: 10%;
+      width: 32px; 
+      height: 32px;
     }
     #info{
       width: 5%;
@@ -96,7 +96,7 @@ body {
           margin-right: 0;
       }
       #input_box {
-        width: 85%;
+        width: 100%;
       }
 
     #infpic {
@@ -113,7 +113,7 @@ body {
     font-size: 150%;
     }
     .footer {
-      width: 80%;
+      width: 100%;
   }
     #info{
       width: 13%;
@@ -352,7 +352,7 @@ margin-right: 10%;
 
 
 .rand-center {
-  margin-left: 25%;
+  margin-left: 24%;
 }
 
 
@@ -371,6 +371,7 @@ margin-right: 10%;
    
    #input_box {
     margin-top: 2%;
+    margin-left:-1%;
     border: 2px solid #cccccc;
     font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
@@ -465,7 +466,7 @@ margin-right: 10%;
     margin-top: 5%;
     font-family: 'Varela Round', sans-serif;
     color:#ffffff;
-    min-width: 50%;
+    min-width: 70%;
     width: max-content;
     height:35px;
     font-size: 155%;
@@ -485,7 +486,7 @@ margin-right: 10%;
      margin-top: 5%;
       height: auto;
       min-height: 250px;
-      min-width: 300px;
+      min-width: 100px;
      font-family: 'Varela Round', sans-serif;
      color:#ffffff;
      border: 2px solid #ffffff;
