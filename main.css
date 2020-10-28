@@ -51,8 +51,8 @@ body {
     #infpic {
       position: relative;
       margin-top: 1%;
-      width: 32px; 
-      height: 32px;
+      width: 40px; 
+      height: 40px;
     }
     #info{
       width: 5%;
@@ -69,11 +69,11 @@ body {
       padding-right: 10px;
     }
     .field-center {
-        margin-left: 5%;
+        margin-left: 6%;
     }
     
     .field-right {
-        margin-left: 2%;
+        margin-left: 3%;
     }
     
   }
@@ -96,12 +96,12 @@ body {
           margin-right: 0;
       }
       #input_box {
-        width: 97%;
+        width: 95%;
       }
 
     #infpic {
       position: relative;
-      margin-top: 20%;
+      margin-top: 5%;
       width: 180%; 
       height: 180%;
       margin-left: -3%;
