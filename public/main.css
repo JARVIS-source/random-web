@@ -101,10 +101,10 @@ body {
 
     #infpic {
       position: relative;
-      margin-top: 2%;
+      margin-top: 5%;
       width: 25px; 
       height: 25px;
-      margin-left: -6%;
+      margin-right: 10%;
     }
     .display {
     margin-top: 9%;
