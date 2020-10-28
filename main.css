@@ -96,7 +96,7 @@ body {
           margin-right: 0;
       }
       #input_box {
-        width: 95%;
+        width: 100%;
       }
 
     #infpic {
@@ -113,7 +113,7 @@ body {
     font-size: 150%;
     }
     .footer {
-      width: 90%;
+      width: 100%;
   }
     #info{
       width: 13%;
@@ -371,6 +371,7 @@ margin-right: 10%;
    
    #input_box {
     margin-top: 2%;
+    margin-left:-1%;
     border: 2px solid #cccccc;
     font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
