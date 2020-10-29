@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{% static "build/react.js" %}"></script>
     <link href="%PUBLIC_URL%/font/OpenSans/OpenSans.css" rel="stylesheet">
     <link rel="icon" href="%PUBLIC_URL%/pictures/silverbutton-rand.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/main.css">
@@ -29,10 +30,12 @@
             </label>
         </div>
     </header>
+    <div id="root" style="display: none;"></div>
     <main role="main">
         <div class="container box main-container">
 
-            <div class="textfield-center"><input id="input_box" type="text" placeholder="Type in your option..." />
+            <div class="textfield-center input-div">
+                <input id="input_box" type="text" placeholder="Type in your option..." />
             </div>
             <div class="textfield-center" id="menu">
                 <button class="ls-field" id="ls" type="button" onclick="opt_ls();">📑</button>
@@ -46,13 +49,15 @@
             </div>
             <div id="outtodo" class="container"></div>
             <div id="list" class="container"></div>
-            <div class="footer" id="footer">
-                <button id="info" onclick=" info();"><img id="infpic" src="%PUBLIC_URL%/pictures/kiss.png" /></button>
-                <label id="version">Version: 6.6.6</label>
-                <label class="change">
-                    <input type="checkbox" onclick="black_out();">
-                    <span class="slide round"></span>
-                </label>
+            <div class="footer-container">
+                <div class="footer" id="footer">
+                    <button id="info" onclick=" info();"><img id="infpic" src="%PUBLIC_URL%/pictures/kiss.png" /></button>
+                    <span id="version">Version: 6.6.6</span>
+                    <label class="change">
+                        <input type="checkbox" onclick="black_out();">
+                        <span class="slide round"></span>
+                    </label>
+                </div>
             </div>
         </div>
     </main>
