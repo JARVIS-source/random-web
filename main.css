@@ -21,7 +21,6 @@ body {
     margin-bottom: 1rem;
     color: var(--font-color);
     background: var(--bg-color);
-    padding-bottom: 1.5rem;
 }
 
 .text-muted {
@@ -35,15 +34,7 @@ body {
     margin-top: 1rem;
     border-radius: 3px;
     vertical-align: middle;
-    width: 100%;
-  }
-
-.footer-container {
-  display: flex;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+    width: 100%;}
   
 @media(min-width: 50em){
     .box{
@@ -53,10 +44,10 @@ body {
       padding-left: 10px;
       padding-right: 10px;
     }
-    /* .footer {
+    .footer {
         width: 50%;
         max-width: 70%;
-    } */
+    }
     #infpic {
       position: relative;
       margin-top: 1%;
@@ -107,6 +98,7 @@ body {
       #input_box {
         display: flex;
         width: 100%;
+        margin-top: 1rem;
       }
 
     #infpic {
@@ -122,7 +114,11 @@ body {
     height: 100%;
     font-size: 150%;
     }
-    
+    .footer {
+        display: flex;
+        width: 96%;
+        margin-top: 1rem;
+  }
     #info{
       width: 13%;
       height: 14%;
@@ -140,26 +136,26 @@ body {
     }  
 
      .change {
-      /* position: relative;
-      display: inline-block; */
+      position: relative;
+      display: inline-block;
       margin-right: 3%;
       margin-left: 5%;
-      /* width: 4rem; */
-      /* height: 1%; */
+      width: 12%;
+      height: 1%;
      }
-     /* .change input {
+     .change input {
       opacity: 0;
       width: 0;
       height: 0;
-     } */
+     }
      
      .slide {
-      /* position: absolute; */
+      position: absolute;
       cursor: pointer;
-      /* top: 0;
+      top: 0;
       left: 0;
       right: 0;
-      bottom: 0; */
+      bottom: 0;
       color: #111f29f6;
       border: 2px solid;
       border-radius: 20px;
@@ -224,7 +220,8 @@ body {
         width: 1140px;
     }
     .footer {
-      height: auto;
+      display: flex;
+      width: 96%;
       margin-top: 1rem;
     }
     .display {
@@ -234,7 +231,9 @@ body {
     font-size: 300%;
     }
     #input_box {
+      display: flex;
         width: 100%;
+        margin-top: 1rem;
     }
     .field-center {
         margin-left: 25%;
@@ -376,14 +375,10 @@ margin-right: 10%;
      text-decoration: wavy;
      border-color: #ffffff;
    }
-
-   .input-div{
-    display:flex;
-    width: 100%;
-    margin-top: 2rem;
-   }
    
    #input_box {
+    margin-top: 2%;
+    margin-left:-1%;
     border: 2px solid #cccccc;
     font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
@@ -588,21 +583,19 @@ margin-right: 10%;
    }
 
    .footer {
-    /* position: fixed;
-    top: 91%; */
-    height: auto;
+    position: fixed;
+    top: 91%;
     text-align: center;
-    vertical-align: center;
     color: #ffffff;
     background-color: brown;
   }
     
   #info {
-    /* position: relative; */
+    position: relative;
     font-size: 120%;
     margin-left: 1%;
     margin-right: 5%;
-    /* display: inline-block; */
+    display: inline-block;
     font-family: 'Varela Round', sans-serif;
     border-color: solid #ffffff;
     border-radius: 4px;
@@ -612,12 +605,12 @@ margin-right: 10%;
     -webkit-transition: .4s;
    transition: .4s;
    transition-duration: 0.4s;
-   height: auto;
   }
 
   
   #version {
-    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
   }
 
   .logo {
