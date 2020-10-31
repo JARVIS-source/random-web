@@ -95,6 +95,10 @@ function rotateAnimation() {
 function del() {
     rotateAnimation();
     options = [];
+    document.getElementById("outrand").innerHTML = "";
+    document.getElementById("outtodo").innerHTML = "";
+    document.getElementById("list").innerHTML = "";
+
 }
 
 function info() {
