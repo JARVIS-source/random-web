@@ -1,6 +1,7 @@
 var options = [];
 var To_Do = false;
 var a = true;
+var elem = ["display", "switch", "input_box", "input_button", "engine_button", "outrand", "outtodo", "list", "date"]
 
 function add_option() {
     rotateAnimation();
@@ -109,10 +110,12 @@ function black_out() {
                 document.body.style.backgroundColor = "#ffffff";
                 document.getElementById("logo1").style.display = "none";
                 document.getElementById("logo2").style.display = "inline";
+                reset(1);
             } else {
                 document.body.style.backgroundColor = "rgb(32, 34, 36)";
                 document.getElementById("logo1").style.display = "inline";
                 document.getElementById("logo2").style.display = "none";
+                reset(0);
             };
         } return a = false;
     } else {
@@ -121,10 +124,26 @@ function black_out() {
             document.body.style.backgroundColor = "#ffffff";
             document.getElementById("logo1").style.display = "none";
             document.getElementById("logo2").style.display = "inline";
+            reset(1);
         } else {
             document.body.style.backgroundColor = "rgb(32, 34, 36)";
             document.getElementById("logo1").style.display = "inline";
             document.getElementById("logo2").style.display = "none";
+            reset(0);
         };
+    }
+}
+
+function reset(number) {
+    var d = 0;
+    for (d = 0; d < elem.length; d++) {
+        var paint = elem[d];
+        if (number == 1) {
+            document.getElementById(paint).style.color = "#293e6b";
+            document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
+        } else {
+            document.getElementById(paint).style.color = "#ffffff";
+            document.getElementById(paint).style.borderColor = "white";
+        }
     }
 }
