@@ -1,7 +1,7 @@
 var options = [];
 var To_Do = false;
 var a = true;
-var elem = ["display", "switch", "input_box", "input_button", "engine_button", "outrand", "outtodo", "list", "date"]
+var elem = ["everything","display", "switch", "input_box", "input_button", "engine_button", "outrand", "outtodo", "list", "date"]
 
 function add_option() {
     rotateAnimation();
@@ -143,10 +143,14 @@ function reset(number) {
     for (d = 0; d < elem.length; d++) {
         var paint = elem[d];
         if (number == 1) {
-            document.getElementById(paint).style.color = "#293e6b";
+            if (paint!="display" && paint!="engine_button"){
+                document.getElementById(paint).style.color = "#293e6b";
+            }
             document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
-            document.getElementById(paint).style.color = "#ffffff";
+            if (paint!="display" && paint!="engine_button"){
+                document.getElementById(paint).style.color = "#ffffff";
+            }
             document.getElementById(paint).style.borderColor = "white";
         }
     }
