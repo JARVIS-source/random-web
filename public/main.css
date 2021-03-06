@@ -90,9 +90,8 @@ body {
         margin-right: 0;
     }
     #input_box {
-      /* margin-left: -1.21%; 
-       width: 94%;*/
-      width: 98%;
+      margin-left: -1.21%; 
+      width: 94%;
       margin-top: 1rem;
     }
 
@@ -267,7 +266,7 @@ body {
     margin-left: 1%;
     width: 5%;
     height: 30px;
-    top: -6px;
+    top: -4px;
    }
    .change input {
     opacity: 0;
