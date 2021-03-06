@@ -497,6 +497,7 @@ margin-left: 24%;
  
  #outtodo {
    margin-top: 5%;
+   padding: 8px;
    height: auto;
    min-height: 20%;
    width: 99%;
@@ -505,6 +506,7 @@ margin-left: 24%;
    border-color: #ffffff;
    color: #ffffff;
    font-weight: bolder;
+   text-align: start;
    border-radius: 4px;
    background-color:transparent;
    box-shadow: 0 0 10px #036de7;
