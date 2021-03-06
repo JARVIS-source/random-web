@@ -266,7 +266,7 @@ body {
     margin-left: 1%;
     width: 5%;
     height: 30px;
-    top: -4px;
+    top: -7px;
    }
    .change input {
     opacity: 0;
@@ -497,6 +497,7 @@ margin-left: 24%;
  
  #outtodo {
    margin-top: 5%;
+   margin-left: -0.25%;
    padding: 8px;
    height: auto;
    min-height: 20%;
