@@ -363,7 +363,6 @@ margin-right: 10%;
 margin-left: 24%;
 }
 
-
 .display {
   position: relative;
   border-color: #ffffff;
@@ -492,7 +491,7 @@ margin-left: 24%;
   min-width: 70%;
   width: max-content;
   height:auto;
-  min-height: 10%;
+  min-height: 20%;
   font-size: 155%;
   border: 2px solid;
   border-color: #ffffff;
@@ -511,7 +510,7 @@ margin-left: 24%;
  
  .outtodo {
    height: auto;
-   min-height: 10%;
+   min-height: 15%;
    width: 98%;
    font-family: 'Varela Round', sans-serif;
    border: 2px solid;
