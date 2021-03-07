@@ -96,7 +96,7 @@ body {
     }
     .outtodo{
       margin-top: 5%;
-      margin-left: -5%;
+      margin-left: -3%;
       padding: 5px;
     }
 
@@ -114,8 +114,8 @@ body {
   font-size: 150%;
   }
   .footer {
-    margin-left: -2%;
-    width: 93%;
+    margin-left: 1%;
+    width: 95%;
     margin-top: 1rem;
 }
   #info{
@@ -245,7 +245,6 @@ body {
   }
   .outtodo{
     margin-top: 5%;
-    margin-left: -0.25%;
     padding: 8px;
   }
   .field-right {
@@ -486,7 +485,7 @@ margin-left: 24%;
  }
  
  #outrand {
-  margin-left: -5%;
+  margin-left: -3%;
   margin-top: 5%;
   padding-top: 1%;
   font-family: 'Varela Round', sans-serif;
