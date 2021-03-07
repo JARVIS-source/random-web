@@ -103,7 +103,7 @@ function del() {
 
 function info() {
     rotateAnimation();
-    alert("This is the Infosite\n\nThe intention of this site is to automate making trivial decissions\n\nHow to use:\nPut in your options (enter or ⚡) and click the R@ŊðØm button to get an answer,\n or switch the toogle button so you will see a To-Do order.\nClick the 📑 emoji to see again what you have entered.\nClick the 🤯 to delete the given input.\n\n(For color changing use the toogle button in the info bar.)\n\n\ncontact:  j_a_r_v_i_s@mail.de")
+    alert("This is the Infosite\n\nThe intention of this site is to automate making trivial decissions\n\nHow to use:\nPut in your options (enter or ⚡) and click the R@ŊðØm button to get an answer,\nor switch the toogle button so you will see a To-Do order.\nClick the 📑 emoji to see again what you have entered.\nClick the 🤯 to delete the given input.\n\n(For color changing use the toogle button in the info bar.)\n\n\ncontact:  j_a_r_v_i_s@mail.de")
 }
 
 function black_out() {
