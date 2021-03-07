@@ -487,10 +487,11 @@ margin-left: 24%;
   margin-left: -1%;
   margin-top: 5%;
   padding-top: 1%;
+  padding-bottom: 1%;
   font-family: 'Varela Round', sans-serif;
   min-width: 70%;
   width: max-content;
-  height:35px;
+  height: 35px;
   font-size: 150%;
   border: 2px solid;
   border-color: #ffffff;
@@ -509,7 +510,7 @@ margin-left: 24%;
  
  .outtodo {
    height: auto;
-   min-height: 5%;
+   min-height: 20%;
    width: 98%;
    font-family: 'Varela Round', sans-serif;
    border: 2px solid;
