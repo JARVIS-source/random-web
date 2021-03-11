@@ -329,8 +329,8 @@ font-size: 150%;
   top: -0.3rem;
   margin-right: 3%;
   margin-left: 5%;
-  width: 12%;
-  height: 1%;
+  width: 7%;
+  height: 1.5%;
  }
  .change input {
   opacity: 0;
@@ -439,9 +439,10 @@ min-width: 40px;
   }
   #infpic {
     position: relative;
-    margin-top: 10%;
-    width: 80%; 
-    height: 80%;
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 25%; 
+    height: 30%;
   }
   #version {
     font-size: 130%;
