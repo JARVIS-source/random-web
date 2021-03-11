@@ -102,7 +102,7 @@ body {
 @media(max-width: 576px){
   .nav.container {
       width: 80%;
-      margin-left: 17%;
+      margin-left: 9%;
   }    
    .container {
         width: 100%;
@@ -245,32 +245,168 @@ body {
 @media(min-width: 768px){
   .nav.container {
     width: 45%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
   .container {
-      width: 720px;
+    width: 760px;
+}
   }
   #infpic {
     position: relative;
-    margin-left: 2%;
+    margin-left: 33%;
     margin-top: 1%;
     width: 32px; 
     height: 32px;
   }
+  .footer {
+    width: 96%;
+    max-width: 1142px;
+    margin-top: 1rem;
+  }
+  .display {
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+  font-size: 300%;
+  }
+  #input_box {
+      width: 99%;
+      margin-top: 1rem;
+  }
+  .outtodo{
+    margin-top: 5%;
+    padding: 8px;
+  }
+  #input_box {
+    margin-left: -1.21%; 
+    width: 95%;
+    margin-top: 1rem;
+  }
+  .outtodo{
+    margin-top: 5%;
+    margin-left: -1.25%;
+    padding: 5px;
+  }
+
+#infpic {
+  position: relative;
+  margin-top: 0.25rem;
+  width: 25px; 
+  height: 25px;
+  left: -0.75rem;
 }
-@media(min-width: 960px){
+.display {
+margin-top: 8%;
+width: 45%;
+height: 100%;
+font-size: 150%;
+}
+.footer {
+  margin-left: -0.5%;
+  width: 95%;
+  margin-top: 1rem;
+}
+#info{
+  width: 13%;
+  height: 14%;
+}   
+#version {
+  top: -0.4rem;
+  font-size: 80%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+#input_button{
+  font-size: 150%;
+}
+#del, #ls{
+  font-size: 180%;
+}  
+
+ .change {
+  position: relative;
+  display: inline-block;
+  top: -0.3rem;
+  margin-right: 3%;
+  margin-left: 5%;
+  width: 12%;
+  height: 1%;
+ }
+ .change input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+ }
+ 
+ .slide {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #111f29f6;
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 100px #c00fec9c;
+  -webkit-transition: .4s;
+  transition: .4s;
+ }
+ 
+ .slide:before {
+  position: absolute;
+  content: "";
+  height: 80%;
+  width: 45%;
+  left: 3%;
+  bottom: 10%;
+  background-color: #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+ }
+ 
+ input:checked + .slide {
+  background-color: #ffffff;
+ }
+ 
+ input:focus + .slide {
+  box-shadow: 0 0 5px #00d9ffde;
+ }
+ 
+ input:checked + .slide:before {
+  background-color: #111f29f6;
+  -webkit-transform: translateX(98%);
+    -ms-transform: translateX(98%);
+    transform: translateX(98%);
+ }
+ 
+ .slide.round {
+  border-radius: 34px;
+  background-color: #111f29f6;
+ }
+ 
+ .slide.round:before {
+  border-radius: 50%;
+}
+.switch {
+width: 85%;
+height: 33%;
+min-width: 40px;
+}
+}
+@media(min-width: 800px){
   .nav.container {
-    width: 45%;
+    width: 80%;
     margin-left: 27%;
 }
   .container {
       width: 960px;
   }
 }
-@media(min-width: 1200px){
+@media(min-width: 970px){
   .nav.container {
-    width: 45%;
-    margin-left: 28%;
+    width: 90%;
+    margin-left: 6%;
 }
   .container {
       width: 1140px;
@@ -389,6 +525,17 @@ body {
     height: 37%;
     min-width: 50px;
     }
+}
+@media(min-width: 1350px){
+  .nav.container {
+    width: 80%;
+    margin-left: 10%;
+}
+.switch {
+  width: 100%;
+  height: 30%;
+  min-width: 50px;
+  }
 }
 
 .textfield {
