@@ -210,7 +210,7 @@ body {
 @media(min-width: 576px){
   .nav.container {
     width: 45%;
-    margin-left: 45rem;
+    margin-left: 20%;
 }
   .container {
       width: 520px;
@@ -226,7 +226,7 @@ body {
 @media(min-width: 768px){
   .nav.container {
     width: 45%;
-    margin-left: 45rem;
+    margin-left: 20%;
 }
   .container {
       width: 720px;
