@@ -96,7 +96,7 @@ body {
     }
     .outtodo{
       margin-top: 5%;
-      margin-left: -1%;
+      margin-left: -1.25%;
       padding: 5px;
     }
 
@@ -210,10 +210,24 @@ body {
   .container {
       width: 520px;
   }
+  #infpic {
+    position: relative;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 32px; 
+    height: 32px;
+  }
 }
 @media(min-width: 768px){
   .container {
       width: 720px;
+  }
+  #infpic {
+    position: relative;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 32px; 
+    height: 32px;
   }
 }
 @media(min-width: 960px){
@@ -272,10 +286,11 @@ body {
     position: relative;
     display: inline-block;
     margin-right: 3%;
+    margin-top: 2%;
     margin-left: 1%;
     width: 5%;
     height: 30px;
-    top: -7px;
+    top: -11px;
    }
    .change input {
     opacity: 0;
