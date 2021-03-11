@@ -98,6 +98,7 @@ body {
       margin-top: 5%;
       margin-left: -1.25%;
       padding: 5px;
+      padding-bottom: 5px;
     }
 
   #infpic {
@@ -207,6 +208,10 @@ body {
   }
 }
 @media(min-width: 576px){
+  .nav.container {
+    width: 45%;
+    margin-left: 45rem;
+}
   .container {
       width: 520px;
   }
@@ -219,6 +224,10 @@ body {
   }
 }
 @media(min-width: 768px){
+  .nav.container {
+    width: 45%;
+    margin-left: 45rem;
+}
   .container {
       width: 720px;
   }
