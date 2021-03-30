@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header class="nav-container extra-container">
-        <div class="picture">
+    <header class="nav container">
+        <div>
             <img id="logo1" class="logo" src="%PUBLIC_URL%/pictures/silverbutton-rand.png" alt="%PUBLIC_URL%/pictures/button-rand.png" width="69" height="69" onclick="rotateAnimation();">
         </div>
         <div>
@@ -40,11 +40,13 @@
             </div>
             <div class="textfield-center"><button id="engine_button" type="button" onclick="process();">R@ŊðØm</button>
             </div>
-            <div id="outrand" class=" extra-container container"></div>
-            <div id="outtodo" class=" extra-container container outtodo"></div>
+            <div class="rand-center">
+                <div id="outrand"></div>
+            </div>
+            <div id="outtodo" class="container outtodo"></div>
             <div id="list" class="container"></div>
-            <div class="extra-container container box footer" id="footer">
-                <button id="info" onclick=" info();"><img id="infpic" src="./pictures/kiss.png" /></button>
+            <div class="footer" id="footer">
+                <button id="info" onclick=" info();"><img id="infpic" src="%PUBLIC_URL%/pictures/kiss.png" /></button>
                 <span id="version">Version: 9.9.9</span>
                 <label class="change">
                     <input type="checkbox" onclick="black_out();">
@@ -54,7 +56,7 @@
         </div>
     </main>
     <div id="date" class="container textfield-right">
-        <small class="text-muted">{ Stand: 30.03.2021 }</small>
+        <small class="text-muted">{ Stand: 23.03.2021 }</small>
     </div>
     <script src="%PUBLIC_URL%/RaNdOm.js"></script>
 </body>
