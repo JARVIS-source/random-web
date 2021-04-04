@@ -88,7 +88,8 @@ body {
     }
 
     .footer {
-        margin-left: -0.72%;
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
         margin-top: 1rem;
     }
@@ -231,7 +232,7 @@ body {
     }
 
     .footer {
-        margin-left: 5.5%;
+        margin-left: 6%;
         width: 85%;
         margin-top: -0.8rem;
     }
@@ -383,7 +384,7 @@ body {
     }
 
     .footer {
-        margin-left: 15%;
+        margin-left: 13%;
         width: 70%;
         margin-top: 1rem;
     }
