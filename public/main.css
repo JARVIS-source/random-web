@@ -94,11 +94,6 @@ body {
         margin-top: 0.5rem;
     }
 
-    #info {
-        width: 13%;
-        height: 14%;
-    }
-
     #version {
         top: -0.4rem;
         font-size: 80%;
@@ -218,7 +213,6 @@ body {
         margin-top: 0.25rem;
         width: 25px;
         height: 25px;
-        left: -0.8rem;
     }
 
     .display {
@@ -234,11 +228,6 @@ body {
         margin-left: 1.8%;
         width: 90%;
         margin-top: 1rem;
-    }
-
-    #info {
-        width: 12%;
-        height: 14%;
     }
 
     #version {
@@ -379,11 +368,6 @@ body {
         margin-top: 1rem;
     }
 
-    #info {
-        width: 13%;
-        height: 14%;
-    }
-
     #version {
         top: -0.4rem;
         font-size: 80%;
@@ -483,7 +467,6 @@ body {
 
     #infpic {
         position: relative;
-        margin-left: 2%;
         margin-top: 5%;
         width: 32px;
         height: 32px;
@@ -1604,15 +1587,7 @@ input:checked+.slider:before {
     margin-left: 1%;
     margin-right: 5%;
     display: inline-block;
-    font-family: 'Varela Round', sans-serif;
-    border-color: solid #ffffff;
-    border-radius: 4px;
     background-color: transparent;
-    box-shadow: 0 0 14px #cccccc;
-    color: #cccccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-    transition-duration: 0.4s;
 }
 
 #version {
