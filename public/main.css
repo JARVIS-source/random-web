@@ -76,7 +76,7 @@ body {
         margin-top: 0.25rem;
         width: 25px;
         height: 25px;
-        padding-left: -5rem;
+        left: -0.1rem;
     }
 
     .display {
@@ -407,7 +407,7 @@ body {
         top: -0.3rem;
         margin-right: 3%;
         margin-left: 5%;
-        width: 6%;
+        width: 7%;
         height: 2%;
     }
 
@@ -547,11 +547,9 @@ body {
     .change {
         position: relative;
         display: inline-block;
-        top: -0.3rem;
-        margin-right: 3%;
-        margin-left: 5%;
-        width: 7%;
-        height: 2%;
+        top: -0.5rem;
+        width: 8%;
+        height: 5%;
     }
 
     .change input {
@@ -838,7 +836,7 @@ body {
         margin-right: 3%;
         margin-left: 5%;
         width: 6%;
-        height: 1%;
+        height: 1.5%;
     }
 
     .change input {
