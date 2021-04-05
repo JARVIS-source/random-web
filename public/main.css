@@ -72,11 +72,10 @@ body {
     }
 
     #infpic {
-        position: relative;
+        position: center;
         margin-top: 0.25rem;
         width: 25px;
         height: 25px;
-        left: -0.1rem;
     }
 
     .display {
@@ -234,7 +233,7 @@ body {
     .footer {
         margin-left: 5.3%;
         width: 85%;
-        margin-top: -0.1rem;
+        margin-top: 0.5rem;
     }
 
     #info {
@@ -691,7 +690,7 @@ body {
         top: -0.3rem;
         margin-right: 3%;
         margin-left: 5%;
-        width: 6%;
+        width: 5%;
         height: 2%;
     }
 
@@ -1593,7 +1592,7 @@ input:checked+.slider:before {
 
 .footer {
     position: fixed;
-    top: 83%;
+    top: 80%;
     text-align: center;
     color: #ffffff;
     background-color: brown;
