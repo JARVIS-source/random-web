@@ -76,7 +76,7 @@ body {
         margin-top: 0.25rem;
         width: 25px;
         height: 25px;
-        left: -0.01rem;
+        left: -0.01%;
     }
 
     .display {
@@ -407,8 +407,8 @@ body {
         top: -0.3rem;
         margin-right: 3%;
         margin-left: 5%;
-        width: 8%;
-        height: 1%;
+        width: 6%;
+        height: 2%;
     }
 
     .change input {
@@ -550,7 +550,7 @@ body {
         top: -0.3rem;
         margin-right: 3%;
         margin-left: 5%;
-        width: 8%;
+        width: 7%;
         height: 2%;
     }
 
@@ -702,7 +702,7 @@ body {
         top: -0.3rem;
         margin-right: 3%;
         margin-left: 5%;
-        width: 7%;
+        width: 6%;
         height: 2%;
     }
 
