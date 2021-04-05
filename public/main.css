@@ -76,7 +76,7 @@ body {
         margin-top: 0.25rem;
         width: 25px;
         height: 25px;
-        left: -0.78rem;
+        left: -0.01rem;
     }
 
     .display {
@@ -189,7 +189,6 @@ body {
     }
 }
 
-
 @media screen and (min-width:320px) and (max-width:767px) and (orientation:landscape) {
     .nav.container {
         width: 85%;
@@ -217,8 +216,8 @@ body {
 
     #infpic {
         position: relative;
-        padding-left: 50%;
-        margin-top: 0.25rem;
+        padding-left: -0.1rem;
+        margin-top: 0.35rem;
         width: 25px;
         height: 25px;
     }
@@ -235,7 +234,7 @@ body {
     .footer {
         margin-left: 5.3%;
         width: 85%;
-        margin-top: -0.8rem;
+        margin-top: -0.1rem;
     }
 
     #info {
@@ -343,7 +342,7 @@ body {
     #infpic {
         position: relative;
         margin-left: 2%;
-        margin-top: 1%;
+        margin-top: 10%;
         width: 32px;
         height: 32px;
     }
@@ -364,15 +363,6 @@ body {
         margin-top: 5%;
         margin-left: 0.3%;
         padding: 5px;
-    }
-
-    #infpic {
-        position: relative;
-        margin-top: 0.25rem;
-        margin-left: 30%;
-        width: 25px;
-        height: 25px;
-        left: -0.75rem;
     }
 
     .display {
@@ -495,7 +485,7 @@ body {
     #infpic {
         position: relative;
         margin-left: 2%;
-        margin-top: 1%;
+        margin-top: 5%;
         width: 32px;
         height: 32px;
     }
@@ -516,15 +506,6 @@ body {
         margin-top: 5%;
         margin-left: 0.05%;
         padding: 5px;
-    }
-
-    #infpic {
-        position: relative;
-        margin-top: 0.3rem;
-        margin-left: 34%;
-        width: 25px;
-        height: 25px;
-        left: -0.75rem;
     }
 
     .display {
@@ -1659,7 +1640,7 @@ input:checked+.slider:before {
 
 .footer {
     position: fixed;
-    top: 90%;
+    top: 83%;
     text-align: center;
     color: #ffffff;
     background-color: brown;
