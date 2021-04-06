@@ -459,7 +459,6 @@ body {
     .nav.container {
         width: 90%;
         margin-left: 7%;
-        border: 2px solid goldenrod;
     }
 
     #infpic {
@@ -600,7 +599,6 @@ body {
         width: 80%;
         max-width: 1030px;
         margin-left: 11.5%;
-        border: 2px solid pink;
     }
 
     #infpic {
@@ -743,8 +741,7 @@ body {
     .nav.container {
         width: 80%;
         max-width: 1030px;
-        margin-left: 13.6%;
-        border: 2px solid blue;
+        margin-left: 11.2%;
     }
 
     #infpic {
@@ -889,7 +886,6 @@ body {
         width: 80%;
         max-width: 1030px;
         margin-left: 13.5%;
-        border: 2px solid red;
     }
 
     #infpic {
@@ -1033,7 +1029,6 @@ body {
     .nav.container {
         width: 90%;
         margin-left: 25%;
-        border: 2px solid green;
     }
 
     #infpic {
@@ -1439,7 +1434,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     min-width: 70%;
     width: max-content;
-    min-height: 29px;
+    min-height: 35px;
     height: fit-content;
     font-size: 150%;
     border: 2px solid;
