@@ -1,7 +1,7 @@
 var options = [];
 var To_Do = false;
 var a = true;
-var elem = ["display", "switch", "input_box", "input_button", "engine_button", "outrand", "outtodo", "list", "date"]
+var elem = ["everything", "display", "switch", "input_box", "input_button", "engine_button", "outrand", "outtodo", "list", "date"]
 
 function add_option() {
     rotateAnimation();
@@ -48,7 +48,6 @@ function process() {
                 numb.push(r);
                 z = z + 1;
             }
-
         }
         v = document.getElementById("list").value
         if (v = "") {
@@ -77,7 +76,6 @@ function choose() {
         document.getElementById("display").style.color = '#812697e7';
         return To_Do = false;
     }
-
 }
 
 var input = document.getElementById("input_box");
@@ -101,12 +99,11 @@ function del() {
     document.getElementById("outrand").innerHTML = "";
     document.getElementById("outtodo").innerHTML = "";
     document.getElementById("list").innerHTML = "";
-
 }
 
 function info() {
     rotateAnimation();
-    alert("This is the Infosite\n\nThe intention of this site is to automate making trivial decission\n\nHow to use:\nPut in your options (enter or ⚡) and click the R@ŊðØm button\nto get an answer or switch the toogle button so you will see a To-Do order\nClick the 📑 emoji to see again what you have entered\nClick the 🤯 to delete the given input\n\nFor color changing use the toogle button in the info bar\n\n\ncontact: j_a_r_v_i_s@mail.de")
+    alert("The intention is to automate making trivial decissions.\n\nHow to use:\nPut in your options (enter or ⚡), click 'R@ŊðØm' to get an answer, switch the toogle button to receive a To-Do order.\nClick 📑 for a list of the entered options.\nClick 🤯 to delete the given input.\n\n(light/dark mode switch is in the info bar.)\n\ncontact:  j_a_r_v_i_s@mail.de")
 }
 
 function black_out() {
@@ -147,10 +144,14 @@ function reset(number) {
     for (d = 0; d < elem.length; d++) {
         var paint = elem[d];
         if (number == 1) {
-            document.getElementById(paint).style.color = "#293e6b";
+            if (paint != "display" && paint != "engine_button") {
+                document.getElementById(paint).style.color = "rgb(167, 35, 35)";
+            }
             document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
-            document.getElementById(paint).style.color = "#ffffff";
+            if (paint != "display" && paint != "engine_button") {
+                document.getElementById(paint).style.color = "#ffffff";
+            }
             document.getElementById(paint).style.borderColor = "white";
         }
     }
