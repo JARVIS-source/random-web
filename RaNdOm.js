@@ -99,7 +99,6 @@ function del() {
     document.getElementById("outrand").innerHTML = "";
     document.getElementById("outtodo").innerHTML = "";
     document.getElementById("list").innerHTML = "";
-
 }
 
 function info() {
@@ -146,7 +145,7 @@ function reset(number) {
         var paint = elem[d];
         if (number == 1) {
             if (paint != "display" && paint != "engine_button") {
-                document.getElementById(paint).style.color = "#293e6b";
+                document.getElementById(paint).style.color = "rgb(167, 35, 35)";
             }
             document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
