@@ -598,7 +598,7 @@ body {
     .nav.container {
         width: 80%;
         max-width: 1030px;
-        margin-left: 12%;
+        margin-left: 11.5%;
     }
 
     #infpic {
@@ -741,7 +741,7 @@ body {
     .nav.container {
         width: 80%;
         max-width: 1030px;
-        margin-left: 11.5%;
+        margin-left: 13.6%;
     }
 
     #infpic {
@@ -1341,6 +1341,8 @@ body {
     border: 2px solid;
     box-shadow: 0 0 10px #8892c9;
     border-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 #input_box {
@@ -1381,7 +1383,7 @@ body {
 #ls,
 #del {
     display: inline;
-    color: white;
+    color: #293e6b;
     border-color: transparent;
     background-color: transparent;
 }
@@ -1466,6 +1468,8 @@ body {
     top: 36%;
     left: 50%;
     display: inline-block;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .switch input {
