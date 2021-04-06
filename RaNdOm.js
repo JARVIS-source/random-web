@@ -144,15 +144,21 @@ function reset(number) {
     for (d = 0; d < elem.length; d++) {
         var paint = elem[d];
         if (number == 1) {
+            document.getElementById("switch").style.color = "rgb(167, 35, 35)";
             if (paint != "display" && paint != "engine_button") {
                 document.getElementById(paint).style.color = "rgb(167, 35, 35)";
+                document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
+            } else {
+                document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
             }
-            document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
+            document.getElementById("switch").style.color = "white";
             if (paint != "display" && paint != "engine_button") {
                 document.getElementById(paint).style.color = "#ffffff";
+                document.getElementById(paint).style.borderColor = "white";
+            } else {
+                document.getElementById(paint).style.borderColor = "white";
             }
-            document.getElementById(paint).style.borderColor = "white";
         }
     }
 }
