@@ -885,7 +885,7 @@ body {
     .nav.container {
         width: 80%;
         max-width: 1030px;
-        margin-left: 18%;
+        margin-left: 13.5%;
     }
 
     #infpic {
@@ -1434,7 +1434,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     min-width: 70%;
     width: max-content;
-    min-height: 30px;
+    min-height: 35px;
     height: fit-content;
     font-size: 150%;
     border: 2px solid;
