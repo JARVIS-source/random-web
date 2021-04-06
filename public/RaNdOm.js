@@ -151,7 +151,7 @@ function reset(number) {
                 document.getElementById(paint).style.color = "#293e6b";
             }
             if (paint == "switch") {
-                document.getElementById(paint).style.color = "#ffffff";
+                document.getElementById(paint).style.color = "red";
             }
             document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
@@ -159,7 +159,7 @@ function reset(number) {
                 document.getElementById(paint).style.color = "#ffffff";
             }
             if (paint == "switch") {
-                document.getElementById(paint).style.color = "rgb(167, 35, 35)";
+                document.getElementById(paint).style.color = "white";
             }
             document.getElementById(paint).style.borderColor = "white";
         }
