@@ -1464,8 +1464,10 @@ body {
 }
 
 .switch {
-    color: #ffffff;
-    border-color: #ffffff;
+    position: relative;
+    top: 36%;
+    left: 50%;
+    display: inline-block;
 }
 
 .switch input {
@@ -1489,10 +1491,8 @@ body {
 }
 
 #switch {
-    position: relative;
-    top: 36%;
-    left: 50%;
-    display: inline-block;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 .slider:before {
