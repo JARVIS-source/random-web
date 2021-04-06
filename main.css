@@ -1432,7 +1432,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     min-width: 70%;
     width: max-content;
-    min-height: 5px;
+    min-height: 30px;
     height: fit-content;
     font-size: 150%;
     border: 2px solid;
