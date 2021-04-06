@@ -1463,11 +1463,7 @@ body {
     font-size: 155%;
 }
 
-#switch {
-    position: relative;
-    top: 36%;
-    left: 50%;
-    display: inline-block;
+.switch {
     color: #ffffff;
     border-color: #ffffff;
 }
@@ -1490,6 +1486,13 @@ body {
     box-shadow: 0 0 100px #c00fec9c;
     -webkit-transition: .4s;
     transition: .4s;
+}
+
+#switch {
+    position: relative;
+    top: 36%;
+    left: 50%;
+    display: inline-block;
 }
 
 .slider:before {
