@@ -150,13 +150,13 @@ function reset(number) {
             if (paint != "display" && paint != "engine_button") {
                 document.getElementById(paint).style.color = "#293e6b";
             }
-            if (paint == "switch") {
-                document.getElementById(paint).style.color = "rgb(167, 35, 35)";
-            }
             document.getElementById(paint).style.borderColor = "rgb(167, 35, 35)";
         } else {
             if (paint != "display" && paint != "engine_button") {
                 document.getElementById(paint).style.color = "#ffffff";
+            }
+            if (paint == "switch") {
+                document.getElementById(paint).style.color = "rgb(167, 35, 35)";
             }
             document.getElementById(paint).style.borderColor = "white";
         }
